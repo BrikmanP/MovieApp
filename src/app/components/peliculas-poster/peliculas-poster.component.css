@@ -1,0 +1,12 @@
+h3{
+    font-size: 15px;
+}
+
+.stars-container{
+    display: flex;
+}
+
+.fa-star{
+    margin-right: 2px;
+    color: #edb867;
+}
