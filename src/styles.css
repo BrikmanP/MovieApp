@@ -1,30 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #14161E;
+  background-color: #0a061a;
 }
 
-h1,h2,h3,h4,h5 {
-    font-weight: 200;
-    color: white;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 200;
+  color: white;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
-hr{
-    color: white;
+hr {
+  color: white;
 }
 
 .navbar-brand {
-    font-weight: 200;
-    color: #bd4c5f !important;
+  font-weight: 200;
+  color: #ffffff !important;
 }
 
 .block {
-    display:block;
+  display: block;
 }
 
-.cursor{
-    cursor:pointer;
+.cursor {
+  cursor: pointer;
 }

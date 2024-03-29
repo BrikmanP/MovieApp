@@ -9,20 +9,16 @@ import { PipesModule } from '../../pipes/pipes.module';
   standalone: true,
   imports: [CommonModule, PipesModule],
   templateUrl: './cast-slide-show.component.html',
-  styleUrl: './cast-slide-show.component.css'
+  styleUrl: './cast-slide-show.component.css',
 })
 export class CastSlideShowComponent implements AfterViewInit {
+  @Input() cast?: Cast[];
 
-  @Input() cast?:Cast[];
-  
   ngAfterViewInit() {
-    
-    const swiper = new Swiper('.swiper',{
-      slidesPerView:5.3,
-      freeMode:true,
-      spaceBetween:15
-    })
-
+    const swiper = new Swiper('.swiper', {
+      slidesPerView: 5.3,
+      freeMode: true,
+      spaceBetween: 15,
+    });
   }
-
 }
